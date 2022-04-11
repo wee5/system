@@ -1,0 +1,18 @@
+编码格式=编码+存储格式
+    编码：数字表示字符
+    存储格式：二进制流表示数字
+
+常见编码格式
+    ascii，gb2312，gbk，gb18030，utf-8，utf-16，utf-32，unicode，ansi
+    
+ascii是什么？
+    ASCII (American Standard Code for Information Interchange): 美国信息交换标准代码
+    用一字节表示128个常见字符
+    
+gb2312，gbk，gb18030的关系？
+    都是为支持中文编码规定的
+    ascii，gb2312，gbk，gb18030向前兼容
+    
+unicode和utf-8，utf-16，utf-32的关系？
+    unicode只是编码，不涉及存储格式
+    utf-x是基于unicode编码实现的不同编码格式
